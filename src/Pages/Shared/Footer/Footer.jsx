@@ -6,7 +6,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 const Footer = () => {
     return (
         <div className="">
-        <footer className="px-48 footer p-10 bg-[#000033] text-white">
+        <footer className="px-[186px] footer p-10 bg-[#000033] text-white">
         <div>
           <img src={logo} alt="" />
           <p>Construisant des ponts entre les consommateurs et <br /> les entreprises pour une meilleure expérience de <br /> consommation en Tunisie.</p>
@@ -35,7 +35,7 @@ const Footer = () => {
       <p className="border-b"></p>
       
       </div>
-      <footer className="footer px-48 items-center p-4 bg-[#000033] text-white">
+      <footer className="footer px-[186px] items-center p-4 bg-[#000033] text-white">
       
       <div className="items-center grid-flow-col">
          

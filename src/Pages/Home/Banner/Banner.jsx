@@ -19,40 +19,15 @@ import vector2 from "../../../assets/Vector (1).png"
 import vector3 from "../../../assets/Vector (2).png"
 
 
+import star1 from "../../../assets/Group 87.png"
+import star2 from "../../../assets/Group 81.png"
+import star3 from "../../../assets/Group 85.png"
+import star4 from "../../../assets/Group 88.png"
+import star5 from "../../../assets/Group 84.png"
+
 const Banner = () => {
 
-  const myStyles1 = {
-    itemShapes: Star,
-    activeFillColor: '#FCD700',
-    inactiveFillColor: '#DCDCDC'
-  }
-
-  const myStyles2 = {
-    itemShapes: Star,
-    activeFillColor: '#43A047',
-  }
-
-  const myStyles3 = {
-    itemShapes: Star,
-    activeFillColor: '#8f28a1',
-    inactiveFillColor: '#DCDCDC'
-
-  }
-
-  const myStyles4 = {
-    itemShapes: Star,
-    activeFillColor: '#ff7a00',
-    inactiveFillColor: '#DCDCDC'
-
-  }
   
-    const myStyles5 = {
-      itemShapes: Star,
-      activeFillColor: '#ea0000',
-    inactiveFillColor: '#DCDCDC'
-
-    }
-
     
 
 const MockResults = [
@@ -107,30 +82,30 @@ const MockResults = [
 
     
   return (
-    <div className="flex  items-center  xl:px-48 py-20  bg-[#EAF4FC]" style={{borderRadius:'0px 0px 50px 50px'}}>
-      <div className="xl:w-3/5 px-10 lg:px-0">
-        <h2 className="text-3xl  font-bold mt-24 w-[540px]">
+    <div className="flex gap-14  items-center  px-[186px] py-10  bg-[#EAF4FC]" style={{borderRadius:'0px 0px 50px 50px'}}>
+      <div className="w-1/2">
+        <h2 className="text-[48px]  font-bold mt-[140px] w-[867px] text-[#000066]">
           Noty - Votre guide de confiance pour les services et produits en
           Tunisie.
         </h2>
-        <p className="mt-4 text-[#667799]">
+        <p className="mt-4 text-[24px] text-[#667799]">
           Trouvez les meilleurs produits et services en un seul endroit.
         </p>
-        <div className="flex  mt-48 pr-32">
+        <div className="flex   pr-32">
         <div className="max-w-md mx-auto">
-        <div className="relative  ">
+        <div className="relative mt-40 h-[350px] bg-white" style={{boxShadow: '0px 1px 3px 1px rgba(0, 0, 102, 0.50)'}}>
           <input
             type="text"
-            className=" w-[398px] px-6 py-4  rounded-full outline-none "
+            className=" w-[416px] px-6 py-4  rounded-full outline-none "
             placeholder="Zar"
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
           />
-          <p className="relative left-64 bottom-[40px] w-28 bg-[#DAE4FF] text-[#000099] font-bold rounded-full text-center  ">Rechercher</p>
+          <p className="relative left-64 bottom-[40px] w-28 bg-[#DAE4FF] text-[#000099] font-bold rounded-full text-center  text-[15px]">Rechercher</p>
           {filteredResults.length > 0 && (
             <div
-              className="absolute z-10 w-[400px] bg-white border-2   border-[#000066] p-5 rounded-lg shadow-lg "
+              className="absolute w-[416px]  p-2 "
               style={{ maxHeight: '400px' }}
             >
               {filteredResults.map((result, index) => (
@@ -162,126 +137,96 @@ const MockResults = [
           )}
         </div>
       </div>
-          <a className="btn hover:text-black ml-4 bg-[#000066] text-white rounded-full text-[12px] ">
+          <a className="btn w-[230px] hover:text-black ml-4 mt-40 bg-[#000066] text-white rounded-full text-[12px] ">
             Laissez votre avis <AiOutlineArrowRight></AiOutlineArrowRight>
           </a>
         </div>
       </div>
-      <div className="xl:w-4/5 crd mt-20 xl:mt-10 px-10">
+      <div className="xl:w-4/5 crd  mb-32 px-10">
         <div className="first  flex gap-8">
-          <div className="card   h-32 bg-white">
-            <div className="flex ">
+          <div className="card w-[344px] h-[112px] p-2 bg-white">
+            <div className="flex items-center">
               <img
-                className="mt-2 px-2 rounded-full gap-10"
+                className="mt-2 w-[34px] h-[30px] px-2 rounded-full gap-10"
                 src={img1}
                 alt=""
               />
-              <Rating
-                className=""
-                style={{ maxWidth: 120 }}
-                itemStyles={myStyles1}
-                value={3}
-                readOnly
-              />
+             <img className="w-[108] h-[20px]" src={star1} alt="" />
             </div>
 
-            <div className="px-5 mt-2">
-              <p className="bg-slate-100 p-2">
+            <div className="px-6  mt-2">
+              <p className="bg-slate-100 p-2  text-[12px]">
                 Awel mara mchit lil hotel hetha 3adit séjour 3alamiya ama l
                 mekla flop 3alekher!!
               </p>
             </div>
           </div>
 
-          <div className="card w-72 h-28 bg-white rotate-[11.978deg]">
-            <div className="flex ">
+          <div className="card w-[233px] h-[97px] bg-white rotate-[11.978deg]">
+            <div className="flex items-center">
               <img
-                className=" rounded-full gap-10 mt-2 px-2"
+                className="w-[34px] h-[30px] rounded-full gap-10 mt-2 px-2"
                 src={img2}
                 alt=""
               />
-              <Rating
-                className=""
-                style={{ maxWidth: 120 }}
-                value={5}
-                itemStyles={myStyles2}
-                readOnly
-              />
+             <img className='w-[108px] mt-2 h-[30px]' src={star2}></img>
             </div>
             <div className="px-5 mt-2">
-              <p className="bg-slate-100 p-2">
+              <p className="bg-slate-100 p-2 text-[12px]">
               Service tayara!
               </p>
             </div>
           </div>
         </div>
 
-        <div className="second mt-8 flex justify-center gap-5">
-          <div className="card w-[500px] h-40 bg-white rotate-[-0.871deg]">
+        <div className="second mt-8   ">
+          <div className="card w-[455px] p-2 h-[136px] bg-white rotate-[-0.871deg] mx-16">
             <div className="flex ">
               <img
-                className=" rounded-full gap-10 mt-2 px-2"
+                className="w-[34px] h-[30px] rounded-full gap-10 mt-2 px-2"
                 src={img3}
                 alt=""
               />
-              <Rating
-                className=""
-                style={{ maxWidth: 120 }}
-                value={4}
-                itemStyles={myStyles3}
-                readOnly
-              />
+              <img className='w-[108px] mt-2 h-[20px]' src={star3}></img>
             </div>
 
             <div className="px-5 mt-2">
-              <p className="bg-slate-100 p-2">
+              <p className="bg-slate-100 p-2 text-[12px]">
               Cette salle de sport est vraiment généale. les équipements sont de qualités, le personel est compétent mais trouver une machine libre peut prendre du temps et devenir frustrant.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="third  mt-8 flex gap-8">
-          <div className="card w-[]  h-40 bg-white rotate-[2.186deg]">
+        <div className="third mr-24 mt-8 flex gap-8">
+          <div className="card w-[428px] p-2 h-[133px] bg-white rotate-[2.186deg]">
             <div className="flex ">
               <img
-                className="mt-2 px-2  rounded-full gap-10"
+                className="mt-2 px-2 w-[34px] h-[34px] rounded-full gap-10"
                 src={img4}
                 alt=""
               />
-              <Rating
-                className=""
-                style={{ maxWidth: 120 }}
-                value={2}
-                itemStyles={myStyles4}
-                readOnly
-              />
+              <img className='w-[108px] mt-2 h-[30px]' src={star4}></img>
             </div>
 
             <div className="px-5 mt-2">
-              <p className="bg-slate-100 p-2">
+              <p className="bg-slate-100 p-2 text-[12px]">
               Honestly, their taxi drivers are awful and disrespectful. It’s true they get to you whenever you are but the customer satisfaction is not fulfilled at all.
               </p>
             </div>
           </div>
 
-          <div className="card w-[700px] h-32 bg-white rotate-[-8.976deg]">
+          <div className="card w-[306px] h-32 bg-white rotate-[-8.976deg]">
             <div className="flex ">
               <img
-                className=" mt-2 px-2 rounded-full gap-10"
+                className=" w-[34px] h-[34px] mt-2 px-2 rounded-full gap-10"
                 src= {img5}
                 alt=""
               />
-              <Rating
-                className=""
-                style={{ maxWidth: 120 }}
-                value={1}
-                itemStyles={myStyles5}
-                readOnly
-              />
+              <img className='w-[108px] mt-2 h-[30px]' src={star5}></img>
             </div>
             <div className="px-5 mt-2">
-              <p className="bg-slate-100 p-2">
+              <p className="bg-slate-100 p-2 text-[12px]">
               تجربة  كارثية. ما  بعثوليش الأرتيكل <br />إلى  حبيت عليه
               </p>
             </div>

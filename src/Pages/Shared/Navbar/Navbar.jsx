@@ -43,7 +43,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="px-48 navbar bg-[#EAF4FC]">
+    <div className="px-[186px] navbar bg-[#EAF4FC]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -64,7 +64,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow bg-[#EAF4FC] rounded-box w-52"
+            className="menu menu-sm text-[15px] dropdown-content mt-3 z-[1] p-2 shadow bg-[#EAF4FC] rounded-box w-52"
           >
           <li>
           <a>À propos de nous</a>
@@ -78,7 +78,7 @@ const Navbar = () => {
           </ul>
         </div>
        <div>
-       <img src={logo} alt="" />
+       <img className="w-[90.509px] h-[38px]" src={logo} alt="" />
        </div>
       </div>
       <div className="navbar hidden lg:flex mr-[700px]">
@@ -98,14 +98,14 @@ const Navbar = () => {
       <div className="flex items-center gap-2">
       
     <BsPeople></BsPeople>
-      <Link className="font-semibold text-[#000066]">Connexion</Link>
+      <Link className="font-semibold text-[#000066] text-[15px]">Connexion</Link>
 
      
 
       </div>
        
       <button
-      className="btn ml-4 bg-[#000066] text-white rounded-full hover:text-black"
+      className="btn w-[161px] h-[44px] ml-4 bg-[#000066] text-white rounded-full hover:text-black"
       onClick={() => openModal("my_modal_3")}
     >
       Pour Entreprises

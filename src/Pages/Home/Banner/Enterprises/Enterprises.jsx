@@ -13,171 +13,125 @@ import img5 from '../../../../assets/unnamed 1.png'
 import img6 from '../../../../assets/106046609_10158285942070907_7859076810884144613_n 1.png'
 
 
+import star1 from "../../../../assets/Group 87.png"
+import star2 from "../../../../assets/Group 81.png"
+import star3 from "../../../../assets/Group 85.png"
+import star4 from "../../../../assets/Screenshot_55.png"
+import star5 from "../../../../assets/Group 84 (1).png"
+import star6 from "../../../../assets/Screenshot_1.png"
+import star7 from "../../../../assets/Screenshot_2.png"
+import star8 from "../../../../assets/Screenshot_3.png"
+
 
 
 const Enterprises = () => {
 
-    const myStyles1 = {
-        itemShapes: Star,
-        activeFillColor: '#43A047',
-        inactiveFillColor: '#DCDCDC'
-      }
-
-      const myStyles2 = {
-        itemShapes: Star,
-        activeFillColor: '#FCD700',
-        inactiveFillColor: '#DCDCDC'
-      }
-
-
-      const myStyles3 = {
-        itemShapes: Star,
-        activeFillColor: '#9227a4',
-        inactiveFillColor: '#DCDCDC'
-      }
-
-
-
-      const myStyles4 = {
-        itemShapes: Star,
-        activeFillColor: '#ff7a00',
-        inactiveFillColor: '#DCDCDC'
-      }
-
-
-      const myStyles5 = {
-        itemShapes: Star,
-        activeFillColor: '#ea0000',
-        inactiveFillColor: '#DCDCDC'
-      }
-
-      const myStyles6 = {
-        itemShapes: Star,
-        activeFillColor: '#fcd700',
-        inactiveFillColor: '#DCDCDC'
-      }
+   
+     
     return (
         <div className="bg-[#F2F2F2]">
-        <div className="bg-[#F2F2F2] px-48 py-20">
+        <div className="bg-[#F2F2F2] px-[186px] py-20">
 
-        <p className="text-2xl text-[#000080] font-semibold">Entreprises les mieux notéese</p>
-        <p className="text-[#0066CC] mt-3">Plongez dans notre sélection des entreprises les mieux évaluées et les plus recommandées par nos utilisateurs satisfaits.</p>
+        <p className="text-[32px] text-[#000080] font-semibold">Entreprises les mieux notéese</p>
+        <p className="text-[#0066CC] mt-2 text-[16px] font-[500]">Plongez dans notre sélection des entreprises les mieux évaluées et les plus recommandées par nos utilisateurs satisfaits.</p>
 
 
         <div className='mt-20  gap-20'>
           <div className='grid grid-cols-3 gap-10'> 
-          <div className="card      bg-white ">
+          <div className="card p-2  w-[484px] h-[275px]    bg-white ">
          <div className=" flex items-center">
            <img
-             className="w-24 h-24  gap-10 mb-14 ml-4"
+             className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
              src={img1}
              alt=""
            />
-          <div className="mt-14 ml-4">
-          <h2 className="text-[#000066] font-bold text-2xl">Darty</h2>
-          <p className="text-[#333333]">Entreprise de vente au détail</p>
+          <div className=" ml-4">
+          <h2 className="text-[#000066] font-bold text-[24px] mt-4">Darty</h2>
+          <p className="text-[#333333] text-[15px]">Entreprise de vente au détail</p>
           <div className="flex my-4">
-         <Rating
-         className=""
-         style={{ maxWidth: 130 }}
-         value={4.5}
-         itemStyles={myStyles1}
-         readOnly
-       />
-       <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> EXCELLENT</p>
+         <img className="w-[108px] h-[20px]" src={star6} alt="" />
+       <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">EXCELLENT</span> </p>
          </div>
-         <p className='text-xl  '>Score: <span className='text-[#000099]'>4.3/5</span> </p>
-         <p className='text-xl '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
+         <p className='text-[15px]  font-[500px]'>Score: <span className='text-[#000099]'>4.3/5</span> </p>
+         <p className=' text-[15px]  font-[500px]'>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
           </div>
             
          </div>
          
 
-         <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
+         <hr className='mt-6 border-[2px] opacity-25 border-[#DAE4FF]' />
 
-         <div className='mt-10 px-4 flex justify-between mb-4'>
+         <div className=' px-4 flex justify-between py-2 '>
 
-         <div className='flex items-center gap-2  font-bold text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center gap-2 text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2 w-32 rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF] p-2   rounded-full flex items-center gap-2  font-bold text-[#000066] w-[133px] h-[40px]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
        </div>
 
-       <div className="card     mt-8 xl:mt-0  bg-white ">
+       <div className="card   w-[484px] h-[275px]   mt-8 xl:mt-0  bg-white ">
        <div className=" flex items-center">
          <img
-           className="w-24 h-24  gap-10 mb-14 ml-4"
+         className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
            src={img2}
            alt=""
          />
-        <div className="mt-14 ml-4">
-        <h2 className="text-[#000066] font-bold text-2xl">Ennakl Automobiles</h2>
+        <div className=" ml-4">
+        <h2 className="text-[#000066] font-bold text-[24px] mt-4">Ennakl Automobiles</h2>
         <p className="text-[#333333]">Concessionnaire de Voitures</p>
         <div className="flex my-4">
-       <Rating
-       className=""
-       style={{ maxWidth: 120 }}
-       value={2.5}
-       itemStyles={myStyles2}
-       readOnly
-     />
-     <p className="text-[#FCD700]   flex  items-center"> <BsDot className='text-2xl'></BsDot> EXCELLENT</p>
+       <img src={star7} alt="" />
+     <p className="text-[#FCD700]   flex  items-center"> <BsDot className='text-2xl'></BsDot> MOYEN</p>
        </div>
-       <p className='text-xl  '>Score: <span className='text-[#000099]'>2.5/5</span> </p>
-       <p className='text-xl '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
+       <p className='text-[15px]  font-[500] '>Score: <span className='text-[#000099]'>2.5/5</span> </p>
+       <p className='text-[15px]  font-[500] '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
         </div>
           
        </div>
        
 
-       <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
+       <hr className='mt-6 border-[2px] opacity-25 border-[#DAE4FF]' />
 
-       <div className='mt-10 px-4 flex justify-between mb-4'>
+       <div className=' px-4 flex justify-between py-2'>
 
-       <div className='flex items-center gap-2  font-bold text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+       <div className='flex items-center gap-2    text-[#000066] text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
        <div>
-       <button className='bg-[#DAE4FF] p-2 w-32 rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+       <button className='w-[133px] h-[40px] bg-[#DAE4FF] p-2   rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
        </div>
        
        </div>
      </div>
 
-   <div className="card    mt-8 xl:mt-0  bg-white ">
+   <div className="card p-2 w-[484px] h-[275px]   mt-8 xl:mt-0  bg-white ">
          <div className=" flex items-center">
            <img
-             className="w-24 h-24  gap-10 mb-14 ml-4"
+           className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
              src={img3}
              alt=""
            />
-          <div className="mt-10 ml-4">
-          <h2 className="text-[#000066] font-bold text-xl">La Cigale Tabarka Hôtel-Thalasso & Spa - Golf</h2>
-          <p className="text-[#333333]">Entreprise de vente au détail</p>
+          <div className=" ml-4">
+          <h2 className="text-[#000066] font-bold text-[15px] mt-4">La Cigale Tabarka Hôtel-Thalasso & Spa - Golf</h2>
+          <p className="text-[#333333] text-[15px] font-[500]">Entreprise de vente au détail</p>
           <div className="flex my-4">
-         <Rating
-         className=""
-         style={{ maxWidth: 120 }}
-         value={4.5}
-         itemStyles={myStyles3}
-         readOnly
-       />
-       <p className="text-[#7B1FA2]   flex  items-center"> <BsDot className='text-2xl'></BsDot> EXCELLENT</p>
+        <img className="w-[108px] h-[20px]" src={star3} alt="" />
+       <p className="text-[#7B1FA2]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">BON</span> </p>
          </div>
-         <p className='text-xl  '>Score: <span className='text-[#000099]'>4.3/5</span> </p>
-         <p className='text-xl '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
+         <p className='text-[15px]  font-[500px]'>Score: <span className='text-[#000099]'>4.3/5</span> </p>
+         <p className='text-[15px]  font-[500px]'>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
           </div>
             
          </div>
          
 
-         <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
+         <hr className='mt-6 opacity-25 border-[2px] border-[#DAE4FF]' />
 
-         <div className='mt-7 px-4 flex justify-between mb-4'>
+         <div className=' px-4 flex justify-between py-3'>
 
-         <div className='flex items-center gap-2  font-bold text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center gap-2  text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2 w-32 rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF] p-2  w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
@@ -186,28 +140,22 @@ const Enterprises = () => {
           </div>
 
           <div className='grid mt-10 md:mt-0 xl:mt-10 grid-cols-3 gap-10'> 
-          <div className="card mt-8 xl:mt-0 bg-white ">
+          <div className="card p-2  w-[484px] h-[275px]     bg-white ">
          <div className=" flex items-center">
            <img
-             className="w-24 h-24  gap-10 mb-14 ml-4"
+           className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
              src={img4}
              alt=""
            />
-          <div className="mt-14">
-          <h2 className="text-[#000066] font-bold text-2xl">DARTY</h2>
-          <p className="text-[#333333]">Entreprise de vente au détail</p>
+          <div className="ml-4">
+          <h2 className="text-[#000066] font-bold text-[24px] mt-4">GlobalNet</h2>
+          <p className="text-[#333333]text-[15px]">Entreprise de vente au détail</p>
           <div className="flex my-4">
-         <Rating
-         className=""
-         style={{ maxWidth: 120 }}
-         value={4.5}
-         itemStyles={myStyles4}
-         readOnly
-       />
-       <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> EXCELLENT</p>
+        <img className="w-[108px] h-[20px]" src={star4} alt="" />
+       <p className="text-[#FF7A00]   flex  items-center"> <BsDot className='text-2xl'></BsDot> DÉCEVANT</p>
          </div>
-         <p className='text-xl  '>Score: <span className='text-[#000099]'>4.3/5</span> </p>
-         <p className='text-xl '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
+         <p className='text-[13px] font-semibold'>Score: <span className='text-[#000099]'>4.3/5</span> </p>
+         <p className='text-[15px]  font-[500px]'>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
           </div>
             
          </div>
@@ -215,38 +163,32 @@ const Enterprises = () => {
 
          <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
 
-         <div className='mt-10 px-4 flex justify-between mb-4'>
+         <div className=' px-4 flex justify-between py-2'>
 
-         <div className='flex items-center gap-2  font-bold text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center gap-2   text-[#000066]  text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2 w-32 rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF] p-2 w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
        </div>
 
-       <div className="card    mt-8 xl:mt-0 bg-white ">
+       <div className="card  p-2  w-[484px] h-[275px]  bg-white ">
        <div className=" flex items-center">
          <img
-           className="w-24 h-24  gap-10 mb-14 ml-4"
+         className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
            src= {img5}
            alt=""
          />
-        <div className="mt-14 ml-4">
-        <h2 className="text-[#000066] font-bold text-2xl">DARTY</h2>
-        <p className="text-[#333333]">Entreprise de vente au détail</p>
+        <div className=" ml-4">
+        <h2 className="text-[#000066] font-bold text-[24px] mt-4">Bolt</h2>
+        <p className="text-[#333333] text-[15px]">Services de Taxi et VTC</p>
         <div className="flex my-4">
-       <Rating
-       className=""
-       style={{ maxWidth: 120 }}
-       value={4.5}
-       itemStyles={myStyles5}
-       readOnly
-     />
-     <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> EXCELLENT</p>
+       <img className="w-[108px] h-[20px]" src={star5} alt="" />
+     <p className="text-[#EA0000]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className=""></span> MÉDIOCRE</p>
        </div>
-       <p className='text-xl  '>Score: <span className='text-[#000099]'>4.3/5</span> </p>
-       <p className='text-xl '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
+       <p className='text-[13px] font-semibold'>Score: <span className='text-[#000099]'>4.3/5</span> </p>
+       <p className='text-[15px]  font-[500px] '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
         </div>
           
        </div>
@@ -254,38 +196,32 @@ const Enterprises = () => {
 
        <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
 
-       <div className='mt-10 px-4 flex justify-between mb-4'>
+       <div className=' px-4 flex justify-between py-2'>
 
-       <div className='flex items-center gap-2  font-bold text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+       <div className='flex items-center gap-2  text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
        <div>
-       <button className='bg-[#DAE4FF] p-2 w-32 rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+       <button className='bg-[#DAE4FF] p-2 w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
        </div>
        
        </div>
      </div>
 
-   <div className="card    mt-8 xl:mt-0  bg-white ">
+   <div className="card  p-2  w-[484px] h-[275px]   mt-8 xl:mt-0  bg-white ">
          <div className=" flex items-center">
            <img
-             className="w-24 h-24  gap-10 mb-14 ml-4"
+             className="w-[70px] h-[70px]  gap-10 mb-14 ml-4"
              src= {img6}
              alt=""
            />
-          <div className="mt-14 ml-4">
-          <h2 className="text-[#000066] font-bold">DARTY</h2>
-          <p className="text-[#333333]">Entreprise de vente au détail</p>
+          <div className=" ml-4">
+          <h2 className="text-[#000066] font-bold text-[24px] mt-4">Zara</h2>
+          <p className="text-[#333333]text-[15px]">Magasin de Vêtements</p>
           <div className="flex my-4">
-         <Rating
-         className=""
-         style={{ maxWidth: 120 }}
-         value={4.5}
-         itemStyles={myStyles6}
-         readOnly
-       />
-       <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> EXCELLENT</p>
+        <img className="w-[108px] h-[20px]" src={star8} alt="" />
+       <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">MOYEN</span> </p>
          </div>
-         <p className='text-xl  '>Score: <span className='text-[#000099]'>4.3/5</span> </p>
-         <p className='text-xl '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
+         <p className='text-[13px] font-semibold'>Score: <span className='text-[#000099]'>4.3/5</span> </p>
+         <p className='text-[15px]  font-[500px]'>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
           </div>
             
          </div>
@@ -293,11 +229,11 @@ const Enterprises = () => {
 
          <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
 
-         <div className='mt-10 px-4 flex justify-between mb-4'>
+         <div className=' px-4 flex justify-between py-2'>
 
-         <div className='flex items-center gap-2  font-bold text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center gap-2    text-[#000066] text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2 w-32 rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF] p-2  w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
@@ -309,7 +245,7 @@ const Enterprises = () => {
             
 
         </div>
-        <div className="px-48 flex justify-between items-center">
+        <div className="px-[186px] flex justify-between items-center">
        <div>
        <p className='flex items-center gap-8 py-14 font-bold text-[#000066] text-[15px]'>Trouver d'autres entreprises recommandées <BsArrowRight className="text-2xl"></BsArrowRight>  </p>
        </div>
