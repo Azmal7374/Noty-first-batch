@@ -36,12 +36,12 @@ const Enterprises = () => {
         <p className="text-[#0066CC] mt-2 text-[16px] font-[500]">Plongez dans notre sélection des entreprises les mieux évaluées et les plus recommandées par nos utilisateurs satisfaits.</p>
 
 
-        <div className='mt-20  gap-20'>
-          <div className='grid grid-cols-3 gap-10'> 
-          <div className="card p-2  w-[484px] h-[275px]    bg-white ">
-         <div className=" flex items-center">
+        <div className='mt-20   gap-2  justify-center0'>
+          <div className='grid grid-cols-3  gap-2p-10'> 
+          <div className="card    w-[484px] h-[288px]    bg-white ">
+         <div className="mt-[25px] flex items-center">
            <img
-             className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
+             className="w-[70px] h-[70px]   gap-2p-10 mb-20 ml-4"
              src={img1}
              alt=""
            />
@@ -63,18 +63,18 @@ const Enterprises = () => {
 
          <div className=' px-4 flex justify-between py-2 '>
 
-         <div className='flex items-center gap-2 text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center  gap-2  justify-center text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2   rounded-full flex items-center gap-2  font-bold text-[#000066] w-[133px] h-[40px]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF]     rounded-full flex items-center  gap-2    justify-center font-bold text-[#000066] w-[133px] h-[40px]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
        </div>
 
-       <div className="card   w-[484px] h-[275px]   mt-8 xl:mt-0  bg-white ">
-       <div className=" flex items-center">
+       <div className="card   w-[484px] h-[288px]   mt-8 xl:mt-0  bg-white ">
+       <div className="mt-[25px] flex items-center">
          <img
-         className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
+         className="w-[70px] h-[70px]   gap-2p-10 mb-20 ml-4"
            src={img2}
            alt=""
          />
@@ -92,27 +92,27 @@ const Enterprises = () => {
        </div>
        
 
-       <hr className='mt-6 border-[2px] opacity-25 border-[#DAE4FF]' />
+       <hr className='mt-6 border-[2px] opacity-25 opacity-25 border-[#DAE4FF]' />
 
        <div className=' px-4 flex justify-between py-2'>
 
-       <div className='flex items-center gap-2    text-[#000066] text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+       <div className='flex items-center  gap-2  justify-center    text-[#000066] text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
        <div>
-       <button className='w-[133px] h-[40px] bg-[#DAE4FF] p-2   rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+       <button className='w-[133px] h-[40px] bg-[#DAE4FF]     rounded-full flex items-center  gap-2  justify-center  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
        </div>
        
        </div>
      </div>
 
-   <div className="card p-2 w-[484px] h-[275px]   mt-8 xl:mt-0  bg-white ">
-         <div className=" flex items-center">
+   <div className="card   w-[484px] h-[288px]   mt-8 xl:mt-0  bg-white ">
+         <div className="mt-[25px] flex items-center">
            <img
-           className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
+           className="w-[70px] h-[70px]   gap-2p-10 mb-20 ml-4"
              src={img3}
              alt=""
            />
           <div className=" ml-4">
-          <h2 className="text-[#000066] font-bold text-[15px] mt-4">La Cigale Tabarka Hôtel-Thalasso & Spa - Golf</h2>
+          <h2 className="text-[#000066] font-bold text-[15px] mt-4">La Ci gap-2le Tabarka Hôtel-Thalasso & Spa - Golf</h2>
           <p className="text-[#333333] text-[15px] font-[500]">Entreprise de vente au détail</p>
           <div className="flex items-center my-4">
         <img className="w-[108px] h-[20px]" src={star3} alt="" />
@@ -125,13 +125,13 @@ const Enterprises = () => {
          </div>
          
 
-         <hr className='mt-6 opacity-25 border-[2px] border-[#DAE4FF]' />
+         <hr className='mt-6 opacity-25 border-[2px] opacity-25 border-[#DAE4FF]' />
 
          <div className=' px-4 flex justify-between py-3'>
 
-         <div className='flex items-center gap-2  text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center  gap-2  justify-center  text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2  w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF]    w-[133px] h-[40px] rounded-full flex items-center  gap-2  justify-center  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
@@ -139,11 +139,11 @@ const Enterprises = () => {
           
           </div>
 
-          <div className='grid mt-10 md:mt-0 xl:mt-10 grid-cols-3 gap-10'> 
-          <div className="card p-2  w-[484px] h-[275px]     bg-white ">
-         <div className=" flex items-center">
+          <div className='grid mt-10 md:mt-0 xl:mt-10 grid-cols-3  gap-2p-10'> 
+          <div className="card    w-[484px] h-[288px]     bg-white ">
+         <div className="mt-[25px] flex items-center">
            <img
-           className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
+           className="w-[70px] h-[70px]   gap-2p-10 mb-20 ml-4"
              src={img4}
              alt=""
            />
@@ -161,22 +161,22 @@ const Enterprises = () => {
          </div>
          
 
-         <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
+         <hr className='mt-6 opacity-25 border-[2px] border-[#DAE4FF]' />
 
          <div className=' px-4 flex justify-between py-2'>
 
-         <div className='flex items-center gap-2   text-[#000066]  text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center  gap-2  justify-center   text-[#000066]  text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2 w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF]   w-[133px] h-[40px] rounded-full flex items-center  gap-2  justify-center  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
        </div>
 
-       <div className="card  p-2  w-[484px] h-[275px]  bg-white ">
-       <div className=" flex items-center">
+       <div className="card     w-[484px] h-[288px]  bg-white ">
+       <div className="mt-[25px] flex items-center">
          <img
-         className="w-[70px] h-[70px]  gap-10 mb-20 ml-4"
+         className="w-[70px] h-[70px]   gap-2p-10 mb-20 ml-4"
            src= {img5}
            alt=""
          />
@@ -194,28 +194,28 @@ const Enterprises = () => {
        </div>
        
 
-       <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
+       <hr className='mt-6 border-[2px] border-[#DAE4FF] opacity-25' />
 
        <div className=' px-4 flex justify-between py-2'>
 
-       <div className='flex items-center gap-2  text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+       <div className='flex items-center  gap-2  justify-center  text-[15px] font-[500] text-[#000066]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
        <div>
-       <button className='bg-[#DAE4FF] p-2 w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+       <button className='bg-[#DAE4FF]   w-[133px] h-[40px] rounded-full flex items-center  gap-2  justify-center  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
        </div>
        
        </div>
      </div>
 
-   <div className="card  p-2  w-[484px] h-[275px]   mt-8 xl:mt-0  bg-white ">
-         <div className=" flex items-center">
+   <div className="card     w-[484px] h-[288px]   mt-8 xl:mt-0  bg-white ">
+         <div className="mt-[25px] flex items-center">
            <img
-             className="w-[70px] h-[70px]  gap-10 mb-14 ml-4"
+             className="w-[70px] h-[70px]   gap-2p-10 mb-14 ml-4"
              src= {img6}
              alt=""
            />
           <div className=" ml-4">
           <h2 className="text-[#000066] font-bold text-[24px] mt-4">Zara</h2>
-          <p className="text-[#333333]text-[15px]">Magasin de Vêtements</p>
+          <p className="text-[#333333]text-[15px]">Ma gap-2sin de Vêtements</p>
           <div className="flex items-center my-4">
         <img className="w-[108px] h-[20px]" src={star8} alt="" />
        <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">MOYEN</span> </p>
@@ -227,13 +227,13 @@ const Enterprises = () => {
          </div>
          
 
-         <hr className='mt-6 border-[2px] border-[#DAE4FF]' />
+         <hr className='mt-6 border-[2px] border-[#DAE4FF] opacity-25 h-[1.5px] ' />
 
          <div className=' px-4 flex justify-between py-2'>
 
-         <div className='flex items-center gap-2    text-[#000066] text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
+         <div className='flex items-center  gap-2  justify-center    text-[#000066] text-[15px] font-[500]'>Lire les avis <BsArrowRight></BsArrowRight>  </div>
          <div>
-         <button className='bg-[#DAE4FF] p-2  w-[133px] h-[40px] rounded-full flex items-center gap-2  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
+         <button className='bg-[#DAE4FF]    w-[133px] h-[40px] rounded-full flex items-center  gap-2p-2  justify-center  font-bold text-[#000066]'> <CiShare1 className='text-[#000066] font-bold'></CiShare1> Site Web</button>
          </div>
          
          </div>
@@ -247,10 +247,10 @@ const Enterprises = () => {
         </div>
         <div className="px-[186px] flex justify-between items-center">
        <div>
-       <p className='flex items-center gap-2 py-14 font-bold text-[#000066] text-[15px]'>Trouver d'autres entreprises recommandées <BsArrowRight className="text-xl mt-1"></BsArrowRight>  </p>
+       <p className='flex items-center  gap-2p-2  justify-center py-14 font-bold text-[#000066] text-[15px]'>Trouver d'autres entreprises recommandées <BsArrowRight className="text-xl mt-1"></BsArrowRight>  </p>
        </div>
 
-       <div className='flex w-[90px] h-[40px] gap-2'>
+       <div className='flex w-[90px] h-[40px]  gap-2  justify-center'>
        <BsArrowRightCircle className='text-5xl'></BsArrowRightCircle>
        <BsArrowLeftCircle className='text-5xl'></BsArrowLeftCircle>
        </div>

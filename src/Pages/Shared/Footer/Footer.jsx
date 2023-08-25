@@ -15,24 +15,24 @@ const Footer = () => {
    <img className='w-[181.018px] h-[76px] ' src={logo} alt="" />
    <p className='text-[14px] font-[500]'>Construisant des ponts entre les consommateurs et <br /> les entreprises pour une meilleure expérience de <br /> consommation en Tunisie.</p>
  </div> 
- <div>
-   <span className="text-[20px] font-[500] text-white">Noty</span> 
+ <div className="ml-[550px]">
+   <span className="text-[20px] font-[500] text-white ">Noty</span> 
    <a className="mt-4 link link-hover text-[#D0D0D0] text-[16px]">Notre mission</a> 
    <a className="link link-hover text-[#D0D0D0] text-[16px]">Carrières</a> 
    <a className="link link-hover text-[#D0D0D0] text-[16px]">Nous contacter</a> 
    <a className="link link-hover text-[#D0D0D0] text-[16px]">Guide d’utilisation</a>
  </div> 
  <div>
- <span className="text-[20px] font-[500]text-white">Entreprises</span> 
+ <span className="text-[20px] font-[500]text-white ml-20">Entreprises</span> 
 
-   <a className="mt-4 link link-hover text-[#D0D0D0]text-[16px]">Pourquoi Noty?</a> 
-   <a className="link link-hover text-[#D0D0D0] text-[16px]">Plans & tarifs</a> 
-   <a className="link link-hover text-[#D0D0D0] text-[16px]">Espace Entreprise</a> 
+   <a className="mt-4 link link-hover text-[#D0D0D0]text-[16px] ml-20">Pourquoi Noty?</a> 
+   <a className="link link-hover text-[#D0D0D0] ml-20 text-[16px]">Plans & tarifs</a> 
+   <a className="link link-hover ml-20 text-[#D0D0D0] text-[16px]">Espace Entreprise</a> 
  </div> 
  <div>
- <span className="text-[20px] font-[500] text-white">Légal</span> 
-   <a className="mt-4 link link-hover text-[#D0D0D0]text-[16px]">Conditions d'utilisation</a> 
-   <a className="link link-hover text-[#D0D0D0] text-[16px]">Politique de confidentialité</a> 
+ <span className="text-[20px] ml-20 font-[500] text-white">Légal</span> 
+   <a className="mt-4 ml-20 link link-hover text-[#D0D0D0]text-[16px]">Conditions d'utilisation</a> 
+   <a className="link ml-20 link-hover text-[#D0D0D0] text-[16px]">Politique de confidentialité</a> 
  </div>      
 </footer>
 <div className="">
