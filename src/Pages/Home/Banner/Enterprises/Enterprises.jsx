@@ -48,7 +48,7 @@ const Enterprises = () => {
           <div className=" ml-4">
           <h2 className="text-[#000066] font-bold text-[24px] mt-4">Darty</h2>
           <p className="text-[#333333] text-[15px]">Entreprise de vente au détail</p>
-          <div className="flex my-4">
+          <div className="flex items-center my-4">
          <img className="w-[108px] h-[20px]" src={star6} alt="" />
        <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">EXCELLENT</span> </p>
          </div>
@@ -81,9 +81,9 @@ const Enterprises = () => {
         <div className=" ml-4">
         <h2 className="text-[#000066] font-bold text-[24px] mt-4">Ennakl Automobiles</h2>
         <p className="text-[#333333]">Concessionnaire de Voitures</p>
-        <div className="flex my-4">
+        <div className="flex items-center my-4">
        <img src={star7} alt="" />
-     <p className="text-[#FCD700]   flex  items-center"> <BsDot className='text-2xl'></BsDot> MOYEN</p>
+     <p className="text-[#FCD700]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">MOYEN </span> </p>
        </div>
        <p className='text-[15px]  font-[500] '>Score: <span className='text-[#000099]'>2.5/5</span> </p>
        <p className='text-[15px]  font-[500] '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
@@ -114,7 +114,7 @@ const Enterprises = () => {
           <div className=" ml-4">
           <h2 className="text-[#000066] font-bold text-[15px] mt-4">La Cigale Tabarka Hôtel-Thalasso & Spa - Golf</h2>
           <p className="text-[#333333] text-[15px] font-[500]">Entreprise de vente au détail</p>
-          <div className="flex my-4">
+          <div className="flex items-center my-4">
         <img className="w-[108px] h-[20px]" src={star3} alt="" />
        <p className="text-[#7B1FA2]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">BON</span> </p>
          </div>
@@ -150,9 +150,9 @@ const Enterprises = () => {
           <div className="ml-4">
           <h2 className="text-[#000066] font-bold text-[24px] mt-4">GlobalNet</h2>
           <p className="text-[#333333]text-[15px]">Entreprise de vente au détail</p>
-          <div className="flex my-4">
+          <div className="flex items-center my-4">
         <img className="w-[108px] h-[20px]" src={star4} alt="" />
-       <p className="text-[#FF7A00]   flex  items-center"> <BsDot className='text-2xl'></BsDot> DÉCEVANT</p>
+       <p className="text-[#FF7A00]   flex  items-center"> <BsDot className='text-2xl'></BsDot>  <span className="text-[13px] font-semibold">DÉCEVANT</span> </p>
          </div>
          <p className='text-[13px] font-semibold'>Score: <span className='text-[#000099]'>4.3/5</span> </p>
          <p className='text-[15px]  font-[500px]'>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
@@ -183,9 +183,9 @@ const Enterprises = () => {
         <div className=" ml-4">
         <h2 className="text-[#000066] font-bold text-[24px] mt-4">Bolt</h2>
         <p className="text-[#333333] text-[15px]">Services de Taxi et VTC</p>
-        <div className="flex my-4">
+        <div className="flex items-center my-4">
        <img className="w-[108px] h-[20px]" src={star5} alt="" />
-     <p className="text-[#EA0000]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className=""></span> MÉDIOCRE</p>
+     <p className="text-[#EA0000]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">MÉDIOCRE</span> </p>
        </div>
        <p className='text-[13px] font-semibold'>Score: <span className='text-[#000099]'>4.3/5</span> </p>
        <p className='text-[15px]  font-[500px] '>Nombre d’avis: <span className='text-[#000099]'>250</span>  </p>
@@ -216,7 +216,7 @@ const Enterprises = () => {
           <div className=" ml-4">
           <h2 className="text-[#000066] font-bold text-[24px] mt-4">Zara</h2>
           <p className="text-[#333333]text-[15px]">Magasin de Vêtements</p>
-          <div className="flex my-4">
+          <div className="flex items-center my-4">
         <img className="w-[108px] h-[20px]" src={star8} alt="" />
        <p className="text-[#43A047]   flex  items-center"> <BsDot className='text-2xl'></BsDot> <span className="text-[13px] font-semibold">MOYEN</span> </p>
          </div>
@@ -247,10 +247,10 @@ const Enterprises = () => {
         </div>
         <div className="px-[186px] flex justify-between items-center">
        <div>
-       <p className='flex items-center gap-8 py-14 font-bold text-[#000066] text-[15px]'>Trouver d'autres entreprises recommandées <BsArrowRight className="text-2xl"></BsArrowRight>  </p>
+       <p className='flex items-center gap-2 py-14 font-bold text-[#000066] text-[15px]'>Trouver d'autres entreprises recommandées <BsArrowRight className="text-xl mt-1"></BsArrowRight>  </p>
        </div>
 
-       <div className='flex gap-4'>
+       <div className='flex w-[90px] h-[40px] gap-2'>
        <BsArrowRightCircle className='text-5xl'></BsArrowRightCircle>
        <BsArrowLeftCircle className='text-5xl'></BsArrowLeftCircle>
        </div>

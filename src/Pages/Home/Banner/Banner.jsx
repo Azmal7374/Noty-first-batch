@@ -198,8 +198,8 @@ const MockResults = [
           </div>
         </div>
 
-        <div className="third mr-24 mt-8 flex gap-8">
-          <div className="card w-[428px] p-2 h-[133px] bg-white rotate-[2.186deg]">
+        <div className="third relative right-32 w-[900px] mt-8 flex gap-8">
+          <div className="card   w-[428px] p-2 h-[133px] bg-white rotate-[2.186deg]">
             <div className="flex ">
               <img
                 className="mt-2 px-2 w-[34px] h-[34px] rounded-full gap-10"
