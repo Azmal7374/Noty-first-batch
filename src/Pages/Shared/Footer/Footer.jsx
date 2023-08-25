@@ -7,7 +7,7 @@ import img1 from "../../../assets/Yuniqode white png 1.png"
 const Footer = () => {
     return (
         <div className="bg-[#000033]">
- <div className="px-[189px]">
+ <div className="px-[189px] ">
  
  <footer className="  py-[84px] footer    text-white">
        
@@ -40,7 +40,8 @@ const Footer = () => {
 
 </div>
 
-<footer className="footer   items-center mt-[21px] bg-[#000033] text-white">
+<div className="py-4">
+<footer className="footer   items-center    bg-[#000033] text-white">
 
 <div className="items-center grid-flow-col">
   
@@ -54,6 +55,7 @@ const Footer = () => {
  <BsTiktok className="w-[16.002px] h-[16px]"></BsTiktok>
 </div>
 </footer>
+</div>
  </div>
 
         </div>
